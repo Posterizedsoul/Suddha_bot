@@ -15,7 +15,7 @@ asudha_message = {
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(status=discord.Status.online, activity=discord.Game("Hello World"))
+    await bot.change_presence(status=discord.Status.online, activity=discord.Game("Suddha banam general lai"))
     print("startd")
 
 @bot.event
